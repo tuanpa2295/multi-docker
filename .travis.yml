@@ -21,6 +21,7 @@ after_success:
   - docker push phamanhtuan221995/multi-server
   - docker push phamanhtuan221995/multi-worker
 
+# Example AWS deloyment config for travis
 # deploy:
 #   provider: elasticbeanstalk
 #   region: us-west-1
